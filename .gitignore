@@ -1,14 +1,21 @@
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
+# cursive
+.idea
+*.iml
+
+# calva
+.calva
+.lsp
+.vscode
+.portal
+
+# cache, artifacts, logs
+.clj-kondo/.cache
+.clj-kondo/com.github.seancorfield
+.clj-kondo/metosin/malli/config.edn
+.clj-kondo/metosin/malli-types/config.edn
+.cpcache
 .nrepl-port
-.cpcache/
+*.class
+node_modules
+
+.DS_Store
